@@ -21,7 +21,7 @@ http.createServer(function (request, response) {
 		response.end('Hello HTTP!');
 	});
 // Listen on the 8080 port.
-}).listen(1025);
+}).listen(8080);
 
 // Create the connection. 
 // Data is default to new mysql installation and should be changed according to your configuration. 
